@@ -19,5 +19,11 @@ public class Santa {
             System.out.println("Please enter your gift");
             String userInput1 = scan.nextLine();
         }
+
+//   Test your new class in the main
+//   method of the Santa class by creating instances of Santa's reindeer.
+
+        Reindeer rein = new Reindeer("Coco");
+        System.out.println("\n The name of my Reindeer is " + rein.name);
     }
 }
